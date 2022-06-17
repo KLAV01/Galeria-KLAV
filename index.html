@@ -1,0 +1,136 @@
+<!-- Falta colocar um nome no topo
+     Colocar videos
+     colocar modo mobile
+     consertar tamannho do video redondo-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Galeria - Kaique Luan</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+
+    <script>
+        $(document).ready(function(){
+            $('.slider').bxSlider(
+                {
+                    mode: 'fade',
+                    captions: true,
+                    auto: true,
+                    pager: true
+                });
+        });
+        </script>
+
+</head>
+<body style ="background-color: rgb(250, 250, 250);">
+    
+    
+    <div class="topo">
+           
+            <img src="./imagens/logo/logo.png.jpg" width="80">
+            <div class="menu">
+                <a href="./internas/galeria.html">Fotos</a>
+                <a href="./internas/portifolio.html">Portifolio</a>
+                <a href="./internas/videos.html">Videos</a>
+                <a href="./internas/contato.html">Contato</a>
+                <a href="#">Home</a>
+            </div>
+    </div>
+        
+    <div class="miolo">
+
+        <div class="slider">
+            <div><img src="./imagenS/IMG_20220611_182554.jpg"></div>
+            <div><img src="./imagens/1654869017327.jpg"></div>
+            <div><img src="./imagens/1654869017321.jpg"></div>
+        </div>
+    
+        <a name="videos"></a>
+        <div class="portifolio">
+
+            <div class="descricao">
+                <div class="icone"> 
+                    <video autoplay="" loop="" muted="false" width="300">
+                        <source src="./imagens/video/video1.mp4" type="video/mp4">
+                    </video> 
+                </div>
+                <div class="text-descricao"> 
+                    <span class="titulo">Videos</span><br><br>
+                    <span class="subtitulo">Montagem de videos curtos compilados, registrando melhores momentos vivenciados. </span>
+                </div>
+            </div>
+            
+            <div class="descricao">
+                <div class="text-descricao"> 
+                    <span class="titulo">Fotos</span><br><br>
+                    <span class="subtitulo">Fotografias editadas por mim, registrando paisagens, momentos, eventos...</span>
+                </div>
+                <div class="icone"> <img src="./imagens/FOTOS/NATUREZA/3.jpg" alt=""> </div>
+            </div>
+            
+            <div class="descricao">
+                <div class="icone"> <img src="./imagens/FOTOS/1652412893006.jpg" alt=""> </div>
+                <div class="text-descricao"> 
+                    <span class="titulo">Perfil</span><br><br>
+                    <span class="subtitulo">Autor e criador do site/galeria para compartilhar meus registros das paisagens e momentos vividos em forma de fotografias e videos.</span>
+                </div>
+            </div>
+        </div>
+        
+        <a name="galeria"></a>
+        <div class="main">
+            <h1>Galeria</h1> 
+            <div class="galeria">       
+                <a href="./imagens/FOTOS/GALAXIA/16.jpg" class="galeria-img">
+                    <img src="./imagens/FOTOS/GALAXIA/16.jpg" alt="">
+                </a>
+                <a href="./imagens/FOTOS/GALAXIA/17.jpg" class="galeria-img">
+                    <img src="./imagens/FOTOS/GALAXIA/17.jpg" alt="">
+                </a>
+                <a href="./imagens/FOTOS/GALAXIA/14.jpg" class="galeria-img">
+                    <img src="./imagens/FOTOS/GALAXIA/14.jpg" alt="">
+                </a>
+                <a href="./imagens/FOTOS/GALAXIA/56.jpg" class="galeria-img">
+                    <img src="./imagens/FOTOS/GALAXIA/56.jpg" alt="">
+                </a>
+                <a href="./imagens/FOTOS/GALAXIA/61.jpg" class="galeria-img">
+                    <img src="./imagens/FOTOS/GALAXIA/61.jpg" alt="">
+                </a>            
+            </div>        
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="suporte">
+                <h2>suporte</h2>
+                <p>Qualquer dúvida sobre o site entrar em contato por meio das opções disponíveis ao lado.</p>
+            </div>
+
+            <div class="contato">
+                <h2>Contato</h2>
+                <p>kaiqueluan508@gmail.com</p>
+            </div>
+
+            <div class="Redes Sociais">
+                <h2>Redes Sociais</h2>
+                <a href="https://www.instagram.com/kaiqueluan_vaz/"><img src="./imagens/icons/Instagram_icon.png.webp" width="40px"></a>
+                <a href="https://www.tiktok.com/@klav001?lang=pt-BR"><img src="./imagens/icons/1946552.png" width="40px"></a>
+                <a href="https://twitter.com/Kaiqueluan_vaz"><img src="./imagens/icons/twitter_icon-icons.com_62765.png" width="40px"></a>
+            </div>
+            
+            <div class="texto-copy">
+                copyright © 2022
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
